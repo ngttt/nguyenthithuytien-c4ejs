@@ -1,0 +1,22 @@
+.hello{
+    background: red;
+    display: inline;
+  }
+  #span1{
+    background: red;
+  }
+  #span2{
+    background:yellow;
+    display: inline-block;
+    width: 500px;
+  }
+  .iamspan{
+    background: red;
+    display: inline-block;
+    width: 100px;
+  }
+  .iamdiv{
+    background: blue;
+    display: inline-block;
+    width: 100px;
+  }

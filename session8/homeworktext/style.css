@@ -1,0 +1,30 @@
+.one {
+    color: blue;
+    background-color: wheat;
+}
+.two {
+    color: blue;
+    background-color: wheat;
+    text-align: center;
+}
+.three {
+    color: blue;
+    background-color: wheat;
+    text-align: center;
+    text-transform: uppercase;
+}
+.four {
+    color: blue;
+    background-color: wheat;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.five {
+    color: blue;
+    background-color: wheat;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
