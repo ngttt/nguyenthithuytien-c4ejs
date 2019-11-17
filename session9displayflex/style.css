@@ -1,0 +1,40 @@
+/* BÀI HỌC VỀ DISPLAY: FLEX -> GIAO DIỆN GIỐNG YOUTUBE */
+.bg-blue {
+    background-color: blue;
+}
+
+.w-100{
+    width: 100%; /* 100% của thẻ body */
+}
+
+.h-500{
+    height: 500px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+} /* ra  những box nằm dọc, khi thay đổi kích cỡ trang thì bõ bị mất */
+
+#container {
+    display: flex; /* flex làm cho những box được trải nằm ngang, khi thay đổi kích cỡ trang thì box thay đổi theo*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+     /* flex-direction: row; */
+     /* flex-wrap: wrap; khi thay đổi kích cỡ trang các ô sẽ tự động xuống hàng cho vừa với trang */
+    /* flex-wrap: wrap-reverse; /* giống wrap nhưng sẽ đẩy box lên trên*/
+    /*flex-flow: column wrap; /* kết hợp direction và wrap*/
+    /* justify-content: center; /*căn chỉnh các box nhưng thứ tự vẫn là 1 2 3 ko bị đánh ngược như direction, end là qua phải và start là trái*/
+    /* justify-content: space-between; căn theo chiều ngang, khi chỉnh trang thì bõ sẽ bị đăy xuống và đẩy ra 2 bên cạnh,space-arround khi chỉnh trang web thì các box xuống dòng sẽ đc đẩy và giữa */
+    /*căn theo chiều dọc thì dùng align*/
+}
+
+.order-1 {
+    order:-1
+}
+
+.order-2 {
+    order:-2
+}

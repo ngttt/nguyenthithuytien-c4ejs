@@ -1,0 +1,94 @@
+.all {
+    width: 100%;
+    height: 700px;
+}
+.all .head {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.all .section {
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+}
+.all .page {
+    width: 100%;
+    height: 65%;
+    display: flex;
+}
+.all .footer {
+    width: 100%;
+    height: 5%;
+    background-color: steelblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+.all .head .logo {
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+}
+.all .head .heading {
+    width: 80%;
+    height: 100%;
+    background-color: green;
+    text-align: center;
+}
+.all .section .menu {
+    width: 100%;
+    height: 30%;
+    background-color: yellow;
+    text-transform: uppercase;
+    text-align: center;
+}
+.all .section .sectionmain {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.all .section .sectionmain .minisection1 {
+    width: 33%;
+    height: 100%;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.all .section .sectionmain .minisection2 {
+    width: 33%;
+    height: 100%;
+    background-color: grey;
+    display: inline-block;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.all .section .sectionmain .minisection3 {
+    width: 33%;
+    height: 100%;
+    background-color: rgb(172, 62, 144);
+    display: inline-block;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.all .page .content {
+    width: 80%;
+    height: 100%;
+    background-color: mediumseagreen;
+    text-transform: uppercase;
+    text-align: center;
+}
+.all .page .sidebar {
+    width: 20%;
+    height: 100%;
+    background-color: seagreen;
+    text-transform: uppercase;
+    text-align: center;
+}
