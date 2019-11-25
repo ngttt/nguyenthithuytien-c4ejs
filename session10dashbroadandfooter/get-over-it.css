@@ -2,13 +2,16 @@
 * {
     font-family: 'Lato';
 }
+#container {
+    margin-bottom: 130px;
+}
 #container h1 {
     font-size: 32px;
     text-align: center;
     line-height: 38px;
     text-transform: capitalize;
     color: #4F4F4F;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 #container p {
     font-style: normal;
@@ -18,6 +21,7 @@
     text-align: center;
     color: #828282;
     margin-top: 5px;
+    margin-bottom: 30px;
 }
 #sign-up-form {
     width: 442px;
@@ -59,7 +63,7 @@ input {
     color: #F2F2F2;
 }
 #navbar div {
-    display: inline;
+    margin-top: 4px;
 }
 #navbar div p {
     display: inline;
@@ -71,13 +75,10 @@ input {
     margin-right: 30px;
 }
 #navbar {
-    margin-top: 30px;
+    margin: 30px 80px 73px 80px;
     display: flex;
     justify-content: space-between;
-    margin-left:80px;
-    margin-right: 80px;
-    margin-bottom: 73px;
-}
+} 
 #navbar button {
     width: 90px;
     height: 30px;
@@ -88,4 +89,74 @@ input {
     line-height: 22px;
     align-items: center;
     color: #35CE97;
+    background-color: white;
+}
+#navbar img {
+    margin-top: 5px;
+    width: 116px;
+    height: 19px;
+}
+#footer {
+    background-color: #4F4F4F;
+}
+#footer1 {
+    padding:10px 80px;
+    display: flex;
+    margin-bottom: 103px;
+}
+.about-us {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2F2F2;
+    margin-bottom: 8px;
+}
+.p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+#picture img {
+    margin-top: 24px;
+}
+#picture p {
+    margin-top: 4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+#images img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+#picture {
+    margin-left: 230px;
+    margin-right: 230px;
+}
+#info {
+    margin-left: 80px;
+}
+#end  {
+    width:100%;
+    height: 40px;
+    margin-left: 80px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+#end p {
+    margin-top: 0px;
 }
