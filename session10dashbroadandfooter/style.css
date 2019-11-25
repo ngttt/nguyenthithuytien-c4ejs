@@ -1,0 +1,33 @@
+#menu {
+    background-color: pink;
+    width: 100%;
+    height: 80px;
+    color: white; /*đổi màu chữ trong thẻ */
+    font-size: 60px;
+    text-align: center;
+}
+.menutile {
+    text-align: center;
+    font-size: 60px;
+}
+.category {
+    width: 25%;
+    height: 280px;
+    padding: 10px;
+    margin: 20px;
+}
+.items {
+    display: flex;
+    justify-content: space-between; /* cách 2 p ra 2 bên */
+}
+.items-title,
+.items-price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#content {
+    display: flex;
+    flex-wrap: wrap; /* tự động căn và xuống dòng các content*/
+    justify-content: space-between; /* tự động căn các content ra giữa trang web */
+    background-color: rgb(240, 134, 234); /* có thể kiếm màu bằng rgb to hex trên gg */
+}

@@ -1,0 +1,91 @@
+/* . là class và # là id */
+* {
+    font-family: 'Lato';
+}
+#container h1 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+    margin-bottom: 5px;
+}
+#container p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #828282;
+    margin-top: 5px;
+}
+#sign-up-form {
+    width: 442px;
+    height: 360px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    padding: 60px 40px ;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    height: 37px;
+    width: 346px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 11px;
+    margin-bottom: 24px;
+}
+
+#sign-up-form div {
+    margin-left: 40px;
+}
+#button {
+    background: #35CE97;
+    border: 1px solid #35CE97;
+    box-sizing: border-box;
+    border-radius: 88px;
+    width: 346px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F2F2F2;
+}
+#navbar div {
+    display: inline;
+}
+#navbar div p {
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    padding: 16px;
+    margin-right: 30px;
+}
+#navbar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:80px;
+    margin-right: 80px;
+    margin-bottom: 73px;
+}
+#navbar button {
+    width: 90px;
+    height: 30px;
+    border: 1px solid #35CE97;
+    box-sizing: border-box;
+    border-radius: 88px;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color: #35CE97;
+}
